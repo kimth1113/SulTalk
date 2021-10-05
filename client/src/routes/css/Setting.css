@@ -1,0 +1,16 @@
+.setting-header {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.setting-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+.person {
+  margin: 0.3rem 0;
+}

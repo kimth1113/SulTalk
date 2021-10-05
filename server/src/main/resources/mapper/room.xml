@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="talk.server.dao.RoomDao">
+
+    <insert id="makeRoom" parameterType="Room">
+        insert into room(id, title, master_id, pw, b_pw, b_room)
+        values(null, #{title}, #{master}, #{password}, #{b_password}, #{b_room})
+    </insert>
+
+    <select id="roomList" resultType="Room">
+        select * from room
+    </select>
+
+</mapper>

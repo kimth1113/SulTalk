@@ -1,0 +1,130 @@
+.all-article-box {
+  display: flex;
+}
+
+.article-body {
+  margin: 4.5rem 5rem 0 5rem;
+  height: 47.5vh;
+  overflow-y: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-box {
+  height: 60%;
+  margin-right: 2.5rem;
+  border-radius: 8px;
+}
+
+.title-box {
+  font-size: 1.2rem;
+  width: 20rem;
+  height: 2rem;
+  padding: 0.1rem;
+  margin: 0.5rem;
+  background: #7ec1ff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20rem;
+  /* height: 13rem; */
+  /* 개별 카드 높이 */
+  height: 95%;
+
+  padding: 0.1rem;
+  margin: 0.5rem;
+
+  background: #cfe8ff;
+  border-radius: 8px;
+}
+
+.title-content {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20rem;
+  padding: 0.1rem;
+  margin: 0.5rem;
+
+  background: #a0d1ff;
+  border-radius: 5px;
+}
+
+.upper-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5rem;
+  width: 50%;
+  padding-left: 3.3rem;
+  z-index: 10000000;
+}
+
+.my-button {
+  color: white;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.order {
+  width: 150px;
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 35px;
+  text-align: center;
+  color: #ff0000;
+}
+
+.create-article-button {
+  position: fixed;
+  bottom: 0;
+  background: #cfe8ff;
+  border: 1px solid #ffffff;
+  color: white;
+  margin-left: 44%;
+  padding: 0 6rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 2.5rem;
+  z-index: 1000000;
+}
+
+/* .slider {
+  height: 85%;
+} */
+
+.article-body::-webkit-scrollbar {
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.article-body::-webkit-scrollbar-thumb {
+  background-color: #ffe4e1;
+  border-radius: 6px;
+}
+
+.type-1:hover,
+.type-2:hover,
+.type-3:hover,
+.type-4:hover {
+  cursor: pointer;
+}

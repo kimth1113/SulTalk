@@ -1,0 +1,93 @@
+.logo {
+  border: white 1px solid;
+  border-radius: 5px;
+  color: white;
+  background-color: #cd5c5c;
+  margin-left: 3.5rem;
+  padding: 0.5rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  margin: 0 0.6rem;
+  width: 3.5rem;
+}
+
+.category-btn {
+  font-size: 15px;
+  padding: 1.2rem;
+  height: 12rem;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffe4e1;
+}
+
+.category-btn:hover {
+  cursor: pointer;
+  background-color: #ffc0cb;
+  font-weight: bold;
+}
+
+.logout {
+  margin-top: 2.5rem;
+  margin-left: 6rem;
+}
+
+.logout-btn {
+  padding: 0.7rem 3.5rem 0.7rem 1.5rem;
+  border: none;
+  background-color: #ffd700;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  font-size: 15px;
+  color: black;
+}
+
+.logout-btn:hover {
+  background-color: black;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.selected .category-btn {
+  background-color: #ffc0cb;
+  font-size: 20px;
+  font-weight: bold;
+  height: 14rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    display: none;
+  }
+  .hamburger {
+    display: initial;
+  }
+}
+
+.burger-ul {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}

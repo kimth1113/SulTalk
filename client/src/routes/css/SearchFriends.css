@@ -1,0 +1,76 @@
+.search-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.sf-btn {
+  background-color: #FFA3A3;
+  padding: 0 1rem;
+}
+
+.fs-label {
+  color: #fff;
+  font-size: larger;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.sf-btn:hover {
+  background-color: #A7D5FF;
+}
+
+.friends-no {
+  display: none;
+}
+
+.sf-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.friends {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 45vh;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.friend {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px;
+  display: flex;
+  align-items: center;
+  height:5.5rem;
+  margin: 1.5rem 2rem;
+}
+
+.friend-info {
+  margin: 0 1rem;
+}
+
+.friend:hover {
+  background-color: #7EC1FF;
+  cursor: pointer;
+}
+
+.not-friend,
+.not-friend-v {
+  display: none;
+}
+
+.not-friend-view {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.nf-label {
+  font-size: 3rem;
+  color: #FFA3A3;
+  text-shadow: 0px 0px 2px #000,3px 3px 0px lightgray, 6px 6px 0px gray; 
+}

@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "kimth1113",
+      "password": "1234",
+      "name": "훈훈한훈이"
+    },
+    {
+      "id": 2,
+      "username": "kth1113",
+      "password": "2345",
+      "name": "안훈훈한훈이"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="talk.server.dao.BoardDao">
+
+    <select id="getAllBoard" resultType="Board">
+        select * from BOARD
+    </select>
+
+    <insert id="createsuc"
+            parameterType="talk.server.vo.Board">
+        INSERT INTO BOARD
+        VALUES(null, #{BOARD_TYPE}, #{BOARD_TITLE}, #{BOARD_CONTENT}, #{BOARD_CNT}, #{BOARD_USER}, #{BOARD_YMD});
+    </insert>
+
+    <select id="boarddetail" resultType="Board" parameterType="java.lang.Integer">
+        select * from BOARD
+        where BOARD_NO = #{board_no}
+    </select>
+
+    <delete id="boarddelete" parameterType="java.lang.Integer">
+        delete from BOARD
+        where BOARD_NO = #{board_no}
+    </delete>
+
+    <update id="boardupdate" parameterType="talk.server.vo.Board">
+        UPDATE BOARD
+        SET BOARD_TYPE=#{board_type}, BOARD_TITLE=#{board_title}, BOARD_CONTENT=#{board_content}, BOARD_YMD=sysdate()
+        WHERE BOARD_NO=#{board_no}
+    </update>
+
+</mapper>

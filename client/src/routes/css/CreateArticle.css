@@ -1,0 +1,134 @@
+.create-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+}
+
+.type-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.type-1,
+.type-2,
+.type-3,
+.type-4,
+.type-chk {
+  margin-right: 1.3rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  font-size: 20px;
+  border-radius: 12px;
+  height: 2.3rem;
+  width: 10%;
+  text-align: center;
+  border-style: none;
+  background-color: rgb(255, 163, 163);
+}
+
+.type-1,
+.type-2,
+.type-3,
+.type-4 {
+  background-color: rgb(255, 163, 163);
+}
+
+.type-1:hover {
+  cursor: pointer;
+  background-color: tomato;
+  font-weight: bold;
+}
+
+.type-chk {
+  background-color: tomato;
+  font-weight: bold;
+}
+
+.input-box {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.article-input-box {
+  padding: 1.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #a7d5ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 70%;
+}
+
+.article-title-box {
+  background: #7ec1ff;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+}
+
+.article-content-box {
+  margin-top: 1rem;
+  background: #cfe8ff;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  height: 40vh;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.input-option {
+  margin-left: 1.5rem;
+  width: 25%;
+}
+
+.option-top {
+  background: #c4c4c4;
+  border-radius: 20px;
+  height: 75%;
+  width: 90%;
+  padding: 1rem;
+}
+
+.option-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.cancel-button {
+  padding-top: 0.4rem;
+  background: #ff8484;
+  border: 1px solid #ff0000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 45%;
+  text-align: center;
+  color: #ff0000;
+  font-size: 25px;
+  height: 3rem;
+}
+
+.ok-button {
+  padding-top: 0.4rem;
+  background: #cfe8ff;
+  border: 1px solid #0084ff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 45%;
+  text-align: center;
+  color: #0084ff;
+  font-size: 25px;
+  height: 3rem;
+}

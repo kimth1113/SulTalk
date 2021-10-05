@@ -1,0 +1,170 @@
+.login {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px gray;
+  width: 30rem;
+  height: 31rem;
+  border-radius: 10px;
+}
+
+.form-input {
+  display: flex;
+  background-color: #cfe8ff;
+  height: 2.5rem;
+  width: 18rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 0.6rem;
+  padding: 0 0.75rem;
+  color: #000;
+  font-weight: bold;
+  border-style: none;
+}
+
+.form-input::placeholder {
+  color: darkgray;
+}
+
+.form-input:-webkit-autofill,
+.form-input:-webkit-autofill:hover,
+.form-input:-webkit-autofill:focus,
+.form-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #cfe8ff inset !important;
+  -webkit-text-fill-color: #000;
+}
+
+.login-btn {
+  background-color: #a7d5ff;
+  height: 3rem;
+  width: 20rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: 1rem;
+  border-style: none;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.login-btn h3 {
+  margin: 0;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+  background-color: #1e90ff;
+  color: white;
+}
+
+.login-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 19.5rem;
+  margin: 2rem 0;
+}
+
+.logo-img {
+  height: 3.5rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0.25rem;
+}
+
+p {
+  margin: 0;
+  color: #000;
+}
+
+.signup-link p {
+  text-decoration: underline;
+}
+
+.login-alert,
+.login-id-alert,
+.login-password-alert {
+  display: none;
+}
+
+.login-alert-view,
+.login-id-alert-view,
+.login-password-alert-view {
+  background-color: red;
+  height: 3rem;
+  width: 30rem;
+  opacity: 0.65;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-alert h3,
+.login-id-alert h3,
+.login-password-alert h3 {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .login {
+    width: 100vw;
+    height: 100%;
+  }
+  .login-box {
+    width: 70vw;
+    height: 75%;
+  }
+  .alert {
+    width: 70%;
+  }
+  .form-input {
+    width: 50vw;
+  }
+  .login-btn {
+    width: 55vw;
+  }
+  .login-bottom {
+    width: 55vw;
+  }
+  .social {
+    width: 40vw;
+  }
+  .logo-img {
+    width: 10vw;
+  }
+  .signup-link {
+    width: 10vw;
+  }
+}
+
+.loading-no {
+  display: none;
+}
+
+.loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
