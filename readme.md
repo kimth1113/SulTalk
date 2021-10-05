@@ -68,8 +68,11 @@ You can see our detail [here](https://github.com/kimth1113/SulTalk)!**
 ![](https://images.velog.io/images/kimth1113/post/915f1e51-65f1-457c-a883-2dea207f6c88/ezgif.com-gif-maker%20(12).gif)
 
 - 화상 및 채팅
-![](https://images.velog.io/images/kimth1113/post/9acde8f0-b619-4067-b435-9d0e4a9318dc/ezgif.com-gif-maker%20(10).gif)
-![](https://images.velog.io/images/kimth1113/post/164fe9a2-d46f-4269-903a-e6189a19e739/ezgif.com-gif-maker%20(11).gif)
+
+  
+
+  ![](https://images.velog.io/images/kimth1113/post/9acde8f0-b619-4067-b435-9d0e4a9318dc/ezgif.com-gif-maker%20(10).gif)
+  ![](https://images.velog.io/images/kimth1113/post/164fe9a2-d46f-4269-903a-e6189a19e739/ezgif.com-gif-maker%20(11).gif)
 
 
 ## 📜 License
